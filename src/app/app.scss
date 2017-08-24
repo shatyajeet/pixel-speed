@@ -1,0 +1,55 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#pixel-run-container {
+  position: relative;
+  height: 500px;
+  width: 200px;
+  border: 1px solid #BCBCBC;
+  left: calc(50% - 100px);
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+#pixel-run-lane {
+  position: absolute;
+  left: 0;
+  background-color: #BCBCBC;
+  height: 100%;
+  width: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+#pixel-run-lane-mark {
+  background-color: #111;
+  height: 5px;
+  width: 100%;
+  position: absolute;
+}
+
+#pixel {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background-color: #4a4a4a;
+  top: 87%;
+  left: calc(50% - 5px);
+  margin: 0;
+  padding: 0;
+}
+
+#pixel-lane-speed {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+}
+
+#pixel-lane-distance {
+  position: absolute;
+  right: 10%;
+  top: 20%;
+}
